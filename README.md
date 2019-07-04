@@ -11,12 +11,12 @@ Passively parses HTTP response of the URLs **in scope** and identifies different
 - Change the extension type to 'Python'.
 - Provide the path of the file ‘Asset_Discover.py’ and click on 'Next'.
 
-<kbd><img src="https://github.com/redhuntlabs/BurpSuite-Asset_Discover/blob/master/Screenshots/Add%20Extension.jpg" width="425" height="275"></kbd> <kbd><img src="https://github.com/redhuntlabs/BurpSuite-Asset_Discover/blob/master/Screenshots/Add%20URL%20to%20scope.jpg" width="425" height="275"></kbd>
+<kbd><img src="https://github.com/redhuntlabs/BurpSuite-Asset_Discover/blob/master/Screenshots/Add%20Extension.jpg" width="420" height="275"></kbd> <kbd><img src="https://github.com/redhuntlabs/BurpSuite-Asset_Discover/blob/master/Screenshots/Add%20URL%20to%20scope.jpg" width="420" height="275"></kbd>
 
 # Usage
 - Add a URL to the 'Scope' under the 'Target' tab. The extension will start identifying assets through passive scan. 
 
-<kbd><img src="https://github.com/redhuntlabs/BurpSuite-Asset_Discover/blob/master/Screenshots/Asset%20Discovery%201.png" width="425" height="275"></kbd> <kbd><img src="https://github.com/redhuntlabs/BurpSuite-Asset_Discover/blob/master/Screenshots/Asset%20Discovery%202.jpg" width="425" height="275"></kbd>
+<kbd><img src="https://github.com/redhuntlabs/BurpSuite-Asset_Discover/blob/master/Screenshots/Asset%20Discovery%201.jpg" width="420" height="275"></kbd> <kbd><img src="https://github.com/redhuntlabs/BurpSuite-Asset_Discover/blob/master/Screenshots/Asset%20Discovery%202.jpg" width="420" height="275"></kbd>
 
 # Requirements
 - [Jython 2.7.0](https://www.jython.org/downloads.html)
