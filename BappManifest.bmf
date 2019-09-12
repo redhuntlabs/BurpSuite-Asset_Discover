@@ -1,0 +1,12 @@
+Uuid: d927f0065171485981d6eb49a860fc3e
+ExtensionType: 2
+Name: Asset Discovery
+RepoName: asset-discovery
+ScreenVersion: 1.0
+SerialVersion: 3
+MinPlatformVersion: 0
+ProOnly: True
+Author: Sudhanshu Chauhan
+ShortDescription: Custom passive scan checks for asset discovery.
+EntryPoint: Asset_Discover.py
+BuildCommand: 
