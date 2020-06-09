@@ -1,11 +1,11 @@
-# BurpSuite Extension - Asset Discover[<img src="https://redhuntlabs.com/assets/images/target-audience-512-512x512.png" align="right" width="100">](https://redhuntlabs.com/)
+# BurpSuite Extension - Asset Discover[<img src="https://i1.wp.com/redhuntlabs.com/wp-content/uploads/2020/05/RedHunt-Logo-Without-Text-Dark.png?w=512&ssl=1" align="right" width="100">](https://redhuntlabs.com/)
 Burp Suite extension to discover assets from HTTP response using passive scanning. Refer our blog [Asset Discovery using Burp Suite](https://redhuntlabs.com/blog/asset-discovery-burp-extension.html) for more details.
 
 The extension is now part of the BApp store and can be installed directly from the Burp Suite. https://portswigger.net/bappstore/d927f0065171485981d6eb49a860fc3e
 
 <kbd><img src="https://github.com/redhuntlabs/BurpSuite-Asset_Discover/raw/master/Screenshots/Asset_Discovery_Burp_Extension.jpg" width="420" height="275"></kbd>
 
-**[`To know more about our asset discovery and perimeter security offering, check out nVadr.`](https://redhuntlabs.com/nvadr.html)**
+**[`To know more about our asset discovery and perimeter security offering, check out nVadr.`](https://redhuntlabs.com/nvadr)**
 
 # Description
 Passively parses HTTP response of the URLs **in scope** and identifies different type assets such as **domain, subdomain, IP, S3 bucket** etc. and lists them as informational issues.
