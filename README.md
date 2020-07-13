@@ -5,7 +5,7 @@ The extension is now part of the BApp store and can be installed directly from t
 
 <kbd><img src="https://github.com/redhuntlabs/BurpSuite-Asset_Discover/raw/master/Screenshots/Asset_Discovery_Burp_Extension.jpg" width="420" height="275"></kbd>
 
-**[`To know more about our asset discovery and perimeter security offering, check out nVadr.`](https://redhuntlabs.com/nvadr)**
+**[`To know more about our Attack Surface Management platform, check out NVADR.`](https://redhuntlabs.com/nvadr)**
 
 # Description
 Passively parses HTTP response of the URLs **in scope** and identifies different type assets such as **domain, subdomain, IP, S3 bucket** etc. and lists them as informational issues.
