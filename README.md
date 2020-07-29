@@ -11,7 +11,7 @@ The extension is now part of the BApp store and can be installed directly from t
 Passively parses HTTP response of the URLs **in scope** and identifies different type assets such as **domain, subdomain, IP, S3 bucket** etc. and lists them as informational issues.
 
 # Setup
-- Setup the python environment by providing the [jython.jar](https://www.jython.org/downloads.html) file in the 'Options' tab under 'Extender' in Burp Suite.
+- Setup the python environment by providing the [jython.jar](https://www.jython.org/download.html) file in the 'Options' tab under 'Extender' in Burp Suite.
 - Download the [extension](https://github.com/redhuntlabs/BurpSuite-Asset_Discover/archive/master.zip).
 - In the 'Extensions' tab under 'Extender', select 'Add'.
 - Change the extension type to 'Python'.
@@ -25,7 +25,7 @@ Passively parses HTTP response of the URLs **in scope** and identifies different
 <kbd><img src="https://github.com/redhuntlabs/BurpSuite-Asset_Discover/blob/master/Screenshots/Asset%20Discovery%201.jpg" width="420" height="275"></kbd> <kbd><img src="https://github.com/redhuntlabs/BurpSuite-Asset_Discover/blob/master/Screenshots/Asset%20Discovery%202.jpg" width="420" height="275"></kbd>
 
 # Requirements
-- [Jython 2.7.0](https://www.jython.org/downloads.html)
+- [Jython 2.7.0](https://www.jython.org/download.html)
 - [Burp Suite Pro v2.1](https://portswigger.net/burp)
 
 # Code Credits
