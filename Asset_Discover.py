@@ -14,6 +14,7 @@ from burp import IScannerCheck
 from burp import IScanIssue
 from array import array
 import re
+import socket
 
 # Implement BurpExtender to inherit from multiple base classes
 # IBurpExtender is the base class required for all extensions
@@ -215,6 +216,8 @@ class CustomScans:
                 # the matched value in the response.
 
                 if (issuename == "Asset Discovered: IP"):
+                    if not socket.inet_aton(ref):
+                        continue
                     try:
                         print "IP: "+ref
                         scan_issues.append(ScanIssue(self._requestResponse.getHttpService(),
