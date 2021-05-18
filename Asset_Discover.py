@@ -61,7 +61,7 @@ class BurpExtender(IBurpExtender, IScannerCheck):
         # Call the findRegEx method of our CustomScans object to check
         # the response for anything matching a specified regular expression
         # This one matches an IP
-        regex = "(?:[\d]{1,3})\.(?:[\d]{1,3})\.(?:[\d]{1,3})\.(?:[\d]{1,3})"
+        regex = "((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)"
         issuename = "Asset Discovered: IP"
         issuelevel = "Information"
         issuedetail = """IP Discovered: <b>$asset$</b>
